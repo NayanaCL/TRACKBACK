@@ -1,0 +1,26 @@
+# Environment variables and API keys
+.env
+.env.*
+!.env.example
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Databases and private data
+*.db
+*.sqlite
+*.sqlite3
+database/
+
+# Secrets and credentials
+secrets/
+credentials/
+*.pem
+*.key
+*.zip
+
+# Local editor files
+.vscode/
